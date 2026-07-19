@@ -1,0 +1,41 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling / OS temp files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+
+# Build / packaging leftovers
+build/
+dist/
+*.egg-info/
+
+# Notebook and editor checkpoints
+.ipynb_checkpoints/
+.vscode/
+
+# Project-specific generated caches/artifacts
+test_cache/
+*/processed_cache/
+processed_cache/
+directory_tree.txt
+
+# Large one-use artifacts
+*.zip
+*.pth
+checkpoint.pth
+best_model.pth
+
+# Do not track raw dataset
+StealthyIMU_dataset/
